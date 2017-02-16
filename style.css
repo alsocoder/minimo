@@ -1,0 +1,40 @@
+@font-face {
+	font-family: 'Playfair_Display';
+	src:url('/FONTS/Playfair_Display/PlayfairDisplay-Regular.ttf');
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header-content {
+	width: 1060px;
+	margin: 0 auto;
+}
+
+.header-top {
+	height: 160px;
+	line-height: 160px;
+}
+
+.logo, .top-menu {
+	display: inline;
+}
+
+.logo {
+	font-family: 'Inconsolata', monospace;
+	text-transform: uppercase;
+	font-size: 32px;
+}
+
+.top-menu {
+	float: right;
+}
+.top-menu ul {
+	list-style: none;
+	text-align: right;
+}
+
+.top-menu li {
+	display: inline-block;
+}
