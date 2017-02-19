@@ -22,13 +22,15 @@
 }
 
 .logo, .top-menu {
-	display: inline;
+	display: inline-block;
 }
 
 .logo {
 	font-family: 'Inconsolata', monospace;
 	text-transform: uppercase;
 	font-size: 32px;
+	letter-spacing: 5px;
+	margin-top: 25px;
 }
 
 .top-menu {
