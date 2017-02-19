@@ -20,6 +20,8 @@
 	height: 160px;
 	line-height: 160px;
 	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .logo {
@@ -28,12 +30,10 @@
 	text-transform: uppercase;
 	font-size: 32px;
 	letter-spacing: 5px;
+	margin-right: auto;
 
 }
 
-.top-menu {
-	float: right;
-}
 .top-menu ul {
 	list-style: none;
 	text-align: right;
@@ -43,6 +43,7 @@
 	justify-content: space-between;
 	font-family: 'PlayfairDisplay-Regular';
 	font-size: 15px;
+	letter-spacing: normal;
 
 }
 
