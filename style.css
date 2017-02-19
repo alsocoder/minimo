@@ -1,5 +1,5 @@
 @font-face {
-	font-family: 'Playfair_Display';
+	font-family: 'PlayfairDisplay-Regular';
 	src:url('/FONTS/Playfair_Display/PlayfairDisplay-Regular.ttf');
 }
 @font-face {
@@ -19,18 +19,16 @@
 .header-top {
 	height: 160px;
 	line-height: 160px;
-}
-
-.logo, .top-menu {
-	display: inline-block;
+	margin-top: 50px;
 }
 
 .logo {
+	display: inline-block;
 	font-family: 'Inconsolata', monospace;
 	text-transform: uppercase;
 	font-size: 32px;
 	letter-spacing: 5px;
-	margin-top: 25px;
+
 }
 
 .top-menu {
@@ -39,8 +37,17 @@
 .top-menu ul {
 	list-style: none;
 	text-align: right;
+	display: flex;
+	flex-direction: row;
+	min-width: 570px;
+	justify-content: space-between;
+	font-family: 'PlayfairDisplay-Regular';
+	font-size: 15px;
+
 }
 
+/*
 .top-menu li {
 	display: inline-block;
 }
+*/
