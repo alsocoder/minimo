@@ -56,4 +56,12 @@ section.content {
 	width: 850px;
 	margin-left: auto;
 	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+article {
+	width: 45%;
+	flex-grow: 1;
 }
