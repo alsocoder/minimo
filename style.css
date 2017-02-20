@@ -11,9 +11,14 @@
 	padding: 0;
 }
 
+header,section {
+	margin-bottom: 100px;
+}
+
 .header-content {
 	width: 1060px;
 	margin: 0 auto;
+
 }
 
 .header-top {
@@ -47,8 +52,8 @@
 
 }
 
-/*
-.top-menu li {
-	display: inline-block;
+section.content {
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
 }
-*/
