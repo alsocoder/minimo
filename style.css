@@ -11,10 +11,6 @@
 	padding: 0;
 }
 
-header,section {
-	margin-bottom: 100px;
-}
-
 .header-content {
 	width: 1060px;
 	margin: 0 auto;
@@ -53,15 +49,25 @@ header,section {
 }
 
 section.content {
-	width: 850px;
-	margin-left: auto;
-	margin-right: auto;
+	max-width: 850px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin: 100px auto 130px;
 }
 
-article {
-	width: 45%;
-	flex-grow: 1;
+article.news {
+	max-width: 45%;
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+img.preview, h3 {
+	margin-bottom: 30px;
+}
+
+h2 {
+	margin-bottom: 40px;
 }
