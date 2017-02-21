@@ -74,9 +74,33 @@ h2 {
 .subscribe {
 	height: 285px;
 	background-color: #f0f0f0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+/*	border: 1px solid black;*/
 }
 
-/*
 .subscribe-content {
+	width: 400px;
+	height: 140px;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: column;
+}
 
-}*/
+.subscribe-form {
+	margin-top: auto;
+	margin-bottom: 15px;
+}
+
+.subscribe-form input[type='email'] {
+	border-style: none;
+	background-color: #f0f0f0;
+}
+
+	::-webkit-input-placeholder {color:#626262;}
+	::-moz-placeholder          {color:#626262;}/* Firefox 19+ */
+	:-moz-placeholder           {color:#626262;}/* Firefox 18- */
+	:-ms-input-placeholder      {color:#626262;}
+
+
