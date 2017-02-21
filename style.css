@@ -121,7 +121,40 @@ h2 {
 	text-align: center;
 	line-height: 60px;
 	border: 1px solid black;
+	margin-bottom: 100px;
 }
 
+footer {
+	height: 100px;
+	background-color: #f0f0f0;
+}
 
+.footer-content {
+	width: 1060px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	align-items: flex-end;
+	height: 50px;
 
+}
+
+.copyright {
+	margin-left: 100px;
+}
+
+span {
+	margin-right: 20px;
+}
+
+i.fa {
+	margin-right: 15px;
+}
+
+/*
+i.instagram {
+	background: url('img/instagram.png') no-repeat;
+	height: 15px;
+	width: 15px;
+	margin: 0;
+}*/
