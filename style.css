@@ -77,7 +77,6 @@ h2 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-/*	border: 1px solid black;*/
 }
 
 .subscribe-content {
@@ -90,19 +89,39 @@ h2 {
 
 .subscribe-form {
 	margin-top: auto;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.btn-subscribe {
+	background: url(img/send_icon.png) no-repeat right;
+	width: 32px;
+	height: 17px;
 }
 
 .subscribe-form input[type='email'] {
 	border-style: none;
 	background-color: #f0f0f0;
 	outline: none;
+	width: 350px;
 }
 
 	::-webkit-input-placeholder {color:#626262;}
 	::-moz-placeholder          {color:#626262;}/* Firefox 19+ */
 	:-moz-placeholder           {color:#626262;}/* Firefox 18- */
 	:-ms-input-placeholder      {color:#626262;}
+
+.load-more {
+	display: block;
+	margin: auto;
+	width: 160px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	border: 1px solid black;
+}
 
 
 
