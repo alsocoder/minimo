@@ -96,11 +96,13 @@ h2 {
 .subscribe-form input[type='email'] {
 	border-style: none;
 	background-color: #f0f0f0;
+	outline: none;
 }
 
 	::-webkit-input-placeholder {color:#626262;}
 	::-moz-placeholder          {color:#626262;}/* Firefox 19+ */
 	:-moz-placeholder           {color:#626262;}/* Firefox 18- */
 	:-ms-input-placeholder      {color:#626262;}
+
 
 
