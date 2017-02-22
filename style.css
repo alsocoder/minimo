@@ -36,7 +36,7 @@
 	letter-spacing: 6px;
 	margin-right: auto;
 	line-height: 30px;
-	margin-top: 90px;
+	margin-top: 91px;
 
 }
 
@@ -51,7 +51,7 @@
 	text-transform: uppercase;
 	font-size: 14px;
 	line-height: 30px;
-	margin-top: 90px;
+	margin-top: 92px;
 }
 
 
@@ -66,28 +66,49 @@
 */
 
 section.content {
-	max-width: 850px;
+	max-width: 900px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin: 100px auto 0px;
+	margin: 85px auto 0px;
+
+}
+
+section.content h3 {
+	margin-top: 5px;
+}
+
+.content .comment {
+	font-family: 'Ubuntu-light';
+	font-size: 14px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	margin-top: 45px;
 }
 
 article.news {
-	max-width: 415px;
+	max-width: 420px;
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 130px;
+	margin: 50px 0 130px;
+
+}
+
+.content article p {
+	font-size: 14px;
+	color: #626262;
+	line-height: 1.75;
 }
 
 img.preview, h3 {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 h2 {
-	margin-bottom: 40px;
+	margin-bottom: 25px;
 	color: #626262;
 	font-size: 30px;
+
 }
 
 .subscribe-content h2 {
