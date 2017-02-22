@@ -57,7 +57,7 @@ section.content {
 }
 
 article.news {
-	max-width: 45%;
+	max-width: 415px;
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 130px;
