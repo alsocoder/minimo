@@ -1,7 +1,8 @@
 @font-face {
 	font-family: 'PlayfairDisplay-Regular';
-	src:url('/FONTS/Playfair_Display/PlayfairDisplay-Regular.ttf');
+	src: url('/FONTS/Playfair_Display/PlayfairDisplay-Regular.ttf');
 }
+
 @font-face {
 	font-family: 'Ubuntu-light';
 	src:url('/FONTS/Ubuntu/Ubuntu-Light.ttf');
@@ -43,9 +44,9 @@
 	min-width: 570px;
 	justify-content: space-between;
 	font-family: 'PlayfairDisplay-Regular';
-	font-size: 15px;
+/*	font-size: 15px;*/
 	letter-spacing: normal;
-
+	text-transform: uppercase;
 }
 
 section.content {
