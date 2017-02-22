@@ -1,15 +1,16 @@
 @font-face {
 	font-family: 'PlayfairDisplay-Regular';
-	src: url('/FONTS/Playfair_Display/PlayfairDisplay-Regular.ttf');
+	src: url('./FONTS/Playfair_Display/PlayfairDisplay-Regular.ttf');
 }
 
 @font-face {
 	font-family: 'Ubuntu-light';
-	src:url('/FONTS/Ubuntu/Ubuntu-Light.ttf');
+	src:url('./FONTS/Ubuntu/Ubuntu-Light.ttf');
 }
 * {
 	margin: 0;
 	padding: 0;
+	font-family: 'PlayfairDisplay-Regular';
 }
 
 .header-content {
@@ -43,8 +44,6 @@
 	flex-direction: row;
 	min-width: 570px;
 	justify-content: space-between;
-	font-family: 'PlayfairDisplay-Regular';
-/*	font-size: 15px;*/
 	letter-spacing: normal;
 	text-transform: uppercase;
 }
@@ -70,6 +69,12 @@ img.preview, h3 {
 
 h2 {
 	margin-bottom: 40px;
+	color: #626262;
+	font-size: 30px;
+}
+
+.subscribe-content h2 {
+	color: #333333;
 }
 
 .subscribe {
@@ -152,10 +157,9 @@ i.fa {
 	margin-right: 15px;
 }
 
-/*
-i.instagram {
-	background: url('img/instagram.png') no-repeat;
-	height: 15px;
-	width: 15px;
-	margin: 0;
-}*/
+h3.photodiary {
+	font-family: 'Ubuntu-light';
+	text-transform: uppercase;
+	color: #b4ad9e;
+	font-size: 14px;
+}
